@@ -12,33 +12,82 @@ text_price:red;
 
 /* GENERAL rules 
 *******************/
-
-body{
-background-color:white;
-}
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+body{
+background-color:white;
+}
+
+
+/* MAIN 
+***********/
+
+
+
 .products {
     width: 1200px;
     margin: 2rem auto;
-    text-align: center;
     background-color: white;
   }
 
 .card {
     display:inline-block;
     margin:1rem;
-    height: 600px;
-    width: 300px;
-    background-color: red;
+    position:relative;
+    
+}
 
+.card>img {
+    width: 100%;
 
 }
 
 
 
+.badge {
+    color:white;
+    padding: 4px;
+    position:absolute;
+    font-size: 1rem;
+    
+}
+
+.discount{
+    background-color: #EB0037;
+    bottom: 5rem;
+    left:0;
+    
+}
+
+.sustenability{
+
+    background-color: #00875A;
+    bottom:5rem;
+    left:3rem;
+}
+
+.like {
+    position: absolute;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    font-size:2rem;
+    background-color: white;
+    top:2rem;
+    right:0rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+
+
+.price {
+    color:red;
+}
+
+.oldprice {
+    text-decoration: line-through;
+}
